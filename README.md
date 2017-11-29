@@ -8,7 +8,7 @@ ES6新增了一些特性和语法，早就想学习了，一直找各种理由�
 ##  Arrows （箭头函数）
  >按我的理解，箭头函数主要是对语法的精简，是代码看起来更简洁,直接demo:
  
-~~~
+~~~ javascript
 var my = {
 	_name: "yh",
 	_friends: ["A","B","C"],
@@ -25,8 +25,8 @@ my.printFriends();
 ~~~
 ## Classes 对象
 >es6对对象是完全增强了，增加了析构函数，继承、set，get
-~~~
-//Classes
+~~~ javascript
+//Classes 
 class  Book {
 	constructor(isbn){
 		this.isbn = isbn;
@@ -83,7 +83,7 @@ book2.showBook();
 ## import export 导入导出模块
 >node和最新版chrome 暂时都还没有支持（截止2017-11-28），react中已经使用
 ，通过babel转换
-~~~
+~~~ javascript
 //output.js
 export function output() {
     console.log("OUT: ", arguments);
